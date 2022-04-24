@@ -1786,7 +1786,18 @@ input, select, textarea {
 			margin: 1em 0 2em 0;
 			line-height: 1.5em;
 			text-align: inherit;
+			background-color: rgba(0, 0, 0,.4);
 		}
+	.general {
+		background-color: rgb(150, 255, 200)
+	}
+	
+	p.general {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		margin: 1em 0 2em 0;
+		display: block;
+	}
 
 	footer {
 		margin: 2.5em 0 0 0;
@@ -2245,6 +2256,7 @@ input, select, textarea {
 			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
+			background-color: rgba(0, 0, 0,.4);
 		}
 
 			#header h1 a {
@@ -2313,14 +2325,15 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
 		text-align: center;
-		padding: 1.5em 0 1.5em 0;
+		padding: 1em 0 1em 0;
 		z-index: 1;
 		overflow: hidden;
+		background-color: rgba(0, 0, 0,.4);
 	}
 
 		#nav > ul {
