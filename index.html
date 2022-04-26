@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://unpkg.com/typeit@8.4.0/dist/index.umd.js"></script>
+		<script src="/typeit-master"></script>
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -21,7 +23,15 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo">All About Animals</a></h1>
+								<h1 id="aas"><a href="index.html" id="logo"></a></h1>
+								<script> 
+									new TypeIt("#aas", {
+									  speed: 65,
+									  strings: ["All About Animals"],
+									  cursor: false,
+									  startDelay: 30,
+									}).go();
+								</script>
 								<hr />
 								<p>Your one stop shop for fun animal facts</p>
 							</header>
