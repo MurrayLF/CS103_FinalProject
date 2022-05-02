@@ -2230,6 +2230,14 @@ input, select, textarea {
 	#header.elephant {
 		background-image: url("../../animals/images/elephant.jpg");
 	}
+
+	#header.gorilla {
+		background-image: url("../../animals/images/gorilla.jpg");
+	}
+
+	#header.otter {
+		background-image: url("../../animals/images/otter.jpg");	
+	}
 	
 
 		#header:before {
