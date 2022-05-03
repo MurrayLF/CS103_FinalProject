@@ -2239,6 +2239,18 @@ input, select, textarea {
 	#header.otter {
 		background-image: url("../../animals/images/sea_otter.jpg");	
 	}
+
+	#header.flamingo {
+		background-image: url("../../animals/images/flamingo.jpg");	
+	}
+
+	#header.osprey {
+		background-image: url("../../animals/images/osprey.jpg");	
+	}
+
+	#header.rabbit {
+		background-image: url("../../animals/images/rabbit.jpg");	
+	}
 	
 
 		#header:before {
